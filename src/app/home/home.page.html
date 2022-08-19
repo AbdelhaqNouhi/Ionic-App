@@ -1,0 +1,78 @@
+
+<ion-content [skrollEvent]="true">
+  <ion-fab vertical="top" horizontal="end" slot="fixed" (click)="logout()">
+    <ion-fab-button>
+      <ion-icon name="log-out-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <!-- this is first icone from employe -->
+  <div class="top">
+    <div class="nameText">
+      <p>Bonjour <span>abdelhaq</span></p>
+      <small>{{ todayDate | date: 'dd-MM-yyyy' }}</small>
+    </div>
+  </div>
+
+  <!-- meddleBox -->
+  <div class="first-div">
+    <!-- firstDiv -->
+    <div class="employe">
+      <img src="../../assets/employees logo.png" alt="employees">
+      <!-- <p> this is a place of number that come from database </p> -->
+      <h6>Employees</h6>
+    </div>
+    <!-- firstDiv -->
+    <div class="employe">
+      <img src="../../assets/operations logo.png" alt="employees">
+      <!-- this is a place of number that come from database -->
+      <h6>Employees</h6>
+    </div>
+  </div>
+
+  <!-- this is a body content from this page -->
+  <div class="body">
+    <div class="body-content">
+      <div class="box">
+        <img src="../../assets//unite logo.png" alt="">
+      <!-- <p> this is a place of number that come from database </p> -->
+        <h6>Unites</h6>
+      </div>
+      <div class="box">
+        <img src="../../assets//employees logo.png" alt="">
+      <!-- <p> this is a place of number that come from database </p> -->
+        <h6>Item</h6>
+      </div>
+      <div class="box">
+        <img src="../../assets//employees logo.png" alt="">
+        <!-- <p> this is a place of number that come from database </p> -->
+        <h6>Item</h6>
+      </div>
+      <div class="box">
+        <img src="../../assets//employees logo.png" alt="">
+        <!-- <p> this is a place of number that come from database </p> -->
+        <h6>Item</h6>
+      </div>
+      <div class="box">
+        <img src="../../assets//employees logo.png" alt="">
+        <!-- <p> this is a place of number that come from database </p> -->
+        <h6>Item</h6>
+      </div>
+      <div class="box">
+        <img src="../../assets//employees logo.png" alt="">
+        <!-- <p> this is a place of number that come from database </p> -->
+        <h6>Item</h6>
+      </div>
+      <div class="box">
+        <img src="../../assets//employees logo.png" alt="">
+        <!-- <p> this is a place of number that come from database </p> -->
+        <h6>Item</h6>
+      </div>
+      <div class="box">
+        <img src="../../assets//employees logo.png" alt="">
+        <!-- <p> this is a place of number that come from database </p> -->
+        <h6>Item</h6>
+      </div>
+    </div>
+  </div>
+</ion-content>

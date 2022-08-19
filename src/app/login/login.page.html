@@ -1,0 +1,23 @@
+<ion-content>
+    <ion-card class="flex-center">
+      <ion-card-content>
+        <ion-card-title color="primary">Login</ion-card-title>
+        <div class="elm">
+          <ion-label position="stacked">E-mail</ion-label>
+          <ion-input type="text" aria-placeholder="E-mail"></ion-input>
+        </div>
+        <div class="elm">
+          <ion-label position="stacked">Password</ion-label>
+          <ion-input type="password" aria-placeholder="Password"></ion-input>
+        </div>
+        <ion-button expand="block">Login</ion-button>
+      </ion-card-content>
+    </ion-card>
+
+
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+      <ion-fab-button (click)="presentURLAlert()">
+        <ion-icon name="settings-outline"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+</ion-content>
